@@ -1,0 +1,23 @@
+// BLOK 1
+
+:root {
+  /* fonts */
+  --main-font: 'Roboto', sans-serif;
+  --secondary-font: 'Raleway', sans-serif;
+
+  /* text color */
+  --title-text-cl: var(--black-cl);
+  --uppertitle-cl: #757575;
+
+  /* bg color */
+  --grey-bg-cl: #757575;
+  --dark-bg-cl: #2f303a;
+  --acent-cl: #2196f3;
+
+  --white-cl: #ffffff;
+  --black-cl: #212121;
+
+  /* others */
+  --indent: 30px;
+  --items: 4;
+}

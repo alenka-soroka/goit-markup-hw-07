@@ -1,0 +1,89 @@
+.register {
+  text-align: center;
+
+  &__title {
+    display: block;
+    align-items: center;
+    width: 448px;
+    height: 40px;
+    margin-bottom: 12px;
+
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 1.15;
+    text-align: center;
+    letter-spacing: 0.03em;
+    color: var(--black-cl);
+  }
+
+  &__group {
+    display: flex;
+    flex-direction: column;
+  }
+
+  &__wrap {
+    position: relative;
+    display: block;
+    margin-bottom: 10px;
+  }
+
+  &__label {
+    display: block;
+    position: relative;
+    margin-bottom: 4px;
+
+    text-align: left;
+    font-size: 12px;
+    line-height: 0.85;
+    letter-spacing: 0.01em;
+    color: var(--grey-bg-cl);
+  }
+
+  &__icon {
+    position: relative;
+  }
+}
+.register-form-input,
+.register-form-message {
+  width: 100%;
+  border: 1px solid rgba(33, 33, 33, 0.2);
+  background-color: var(--white-cl);
+
+  border-radius: 4px;
+  padding: 10px;
+  padding-left: 42px;
+
+  outline: transparent;
+}
+.register-form-input:focus-within,
+.register-form-message:focus-within {
+  border: 1px solid var(--acent-cl);
+}
+.register-form-input:focus-within + .register__icons {
+  fill: var(--acent-cl);
+}
+.register__icons {
+  position: absolute;
+  top: 50%;
+  left: 15px;
+  fill: var(--black-cl);
+  transform: translateY(-50%);
+}
+.register__wrap:last-child {
+  margin-bottom: 0;
+}
+.register-form-message {
+  height: 120px;
+  width: 100%;
+  resize: none;
+  margin-bottom: 20px;
+  padding: 12px 16px;
+
+  &::placeholder {
+    font-size: 12px;
+    line-height: 1.16;
+    letter-spacing: 0.01em;
+
+    color: rgba(117, 117, 117, 0.5);
+  }
+}

@@ -1,0 +1,21 @@
+// utils styles
+@import './utils/variables';
+@import './utils/visuaaly-hidden';
+
+// base styles
+@import './base/base';
+@import './base/reset';
+
+// components styles
+@import './components/conteiner';
+@import './components/buttons';
+@import './components/backdrop';
+@import './components/form';
+@import './components/modal';
+@import './components/register';
+@import './components/checkbox';
+
+// layout styles
+@import './layout/header';
+@import './layout/nav';
+@import './layout/hero';

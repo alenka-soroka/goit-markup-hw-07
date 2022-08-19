@@ -1,0 +1,46 @@
+.modal {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  min-width: 528px;
+  padding: 40px;
+
+  background: var(--white-cl);
+  box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14),
+    0px 2px 1px rgba(0, 0, 0, 0.2);
+  border-radius: 4px;
+
+  opacity: 1;
+  transform: translate(-50%, -50%) scale(1);
+
+  &__btn {
+    position: absolute;
+    top: 8px;
+    right: 8px;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 30px;
+    height: 30px;
+    padding: 0;
+    cursor: pointer;
+
+    background-color: transparent;
+    border-radius: 50%;
+    border: 1px solid #0000001a;
+
+    transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  }
+
+  &__btn:hover,
+  &__btn:focus {
+    fill: var(--acent-cl);
+  }
+
+  &__icon {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+}

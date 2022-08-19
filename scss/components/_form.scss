@@ -1,0 +1,33 @@
+.form__button {
+  display: inline-flex;
+  align-items: center;
+  margin: 0;
+}
+
+.form__btn {
+  width: 200px;
+  padding: 10px 52px;
+
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 1.9;
+
+  text-align: center;
+  letter-spacing: 0.06em;
+
+  cursor: pointer;
+  color: var(--white-cl);
+  background: var(--acent-cl);
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+  border-radius: 4px;
+  border-style: none;
+
+  transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1),
+    box-shadow 250ms cubic-bezier(0.4, 0, 0.2, 1);
+
+  &:hover,
+  &:focus {
+    background-color: #188ce8;
+    box-shadow: 0px 4px 4px 0px #00000040;
+  }
+}
