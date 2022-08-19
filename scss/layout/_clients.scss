@@ -1,0 +1,45 @@
+.clients {
+  @extend %conteiner;
+  padding-top: 94px;
+  padding-bottom: 94px;
+  background: var(--white-cl);
+
+  &__list {
+    @extend %reset-list;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 30px;
+  }
+
+  &__link {
+    @extend %reset-link;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 170px;
+    height: 92px;
+
+    border-radius: 4px;
+    border: 1px solid #afb1b8;
+    color: #afb1b8;
+
+    transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  }
+
+  &__link:hover,
+  &__link:focus {
+    color: var(--white-cl);
+  }
+
+  &__link:hover,
+  &__link:focus {
+    --color3: var(--acent-cl);
+    --color2: var(--acent-cl);
+    border: 1px solid var(--acent-cl);
+  }
+
+  &__icon {
+    fill: currentColor;
+  }
+}

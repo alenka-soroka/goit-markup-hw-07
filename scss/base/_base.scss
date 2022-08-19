@@ -1,5 +1,3 @@
-// BLOK 2
-
 body {
   font-family: var(--main-font);
   color: var(--title-text-cl);
@@ -8,4 +6,12 @@ body {
 }
 .no-scroll {
   overflow: hidden;
+}
+
+.conteiner {
+  width: 1200px;
+  margin-left: auto;
+  margin-right: auto;
+  padding-left: 15px;
+  padding-right: 15px;
 }

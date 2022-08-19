@@ -1,0 +1,24 @@
+.logo {
+  @extend %reset-link;
+  font-family: var(--secondary-font);
+  color: var(--acent-cl);
+  font-weight: 700;
+  font-size: 26px;
+  line-height: calc(31 / 26);
+  letter-spacing: 0.03em;
+}
+.logo-word {
+  @extend %reset-link;
+  color: var(--title-text-cl);
+}
+.loglin {
+  display: flex;
+  margin-top: 24px;
+}
+.footer-logo-word {
+  color: var(--white-cl);
+}
+.footlog {
+  display: flex;
+  margin-bottom: 20px;
+}

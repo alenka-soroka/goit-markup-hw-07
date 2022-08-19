@@ -1,13 +1,15 @@
 // utils styles
 @import './utils/variables';
 @import './utils/visuaaly-hidden';
+@import './utils/plaseholders';
 
 // base styles
 @import './base/base';
 @import './base/reset';
 
 // components styles
-@import './components/conteiner';
+@import './components/logo';
+@import './components/icons';
 @import './components/buttons';
 @import './components/backdrop';
 @import './components/form';
@@ -19,3 +21,9 @@
 @import './layout/header';
 @import './layout/nav';
 @import './layout/hero';
+@import './layout/feature';
+@import './layout/about';
+@import './layout/team';
+@import './layout/clients';
+@import './layout/portfolio';
+@import './layout/footer';

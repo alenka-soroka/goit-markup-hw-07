@@ -1,0 +1,53 @@
+.about {
+  @extend %conteiner;
+  padding-bottom: 94px;
+
+  &__list {
+    @extend %reset-list;
+    display: flex;
+  }
+  &__item {
+    width: 370px;
+  }
+
+  &__photo {
+    position: relative;
+  }
+
+  &__actions {
+    width: 100%;
+    position: absolute;
+    bottom: 0;
+    padding-top: 24px;
+    padding-bottom: 24px;
+    overflow: hidden;
+
+    background-color: rgba(47, 48, 58, 0.8);
+  }
+
+  &__text {
+    font-weight: 700;
+    font-size: 14px;
+    line-height: calc(16 / 14);
+    text-align: center;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+
+    color: var(--white-cl);
+  }
+}
+
+.about__uppertitle,
+.team__uppertitle,
+.clients__uppertitle {
+  margin-bottom: 50px;
+  text-align: center;
+  font-weight: 700;
+  font-size: 36px;
+  line-height: calc(42 / 36);
+  letter-spacing: 0.03em;
+  color: var(--black-cl);
+}
+.about__list .about__item + .about__item {
+  margin-left: 30px;
+}

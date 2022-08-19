@@ -1,9 +1,14 @@
 .nav__list {
+  @extend %reset-list;
   display: flex;
 }
 .nav__list .nav__item + .nav__item {
   margin-left: 50px;
 }
+.nav__link {
+  @extend %reset-link;
+}
+
 .nav__item {
   position: relative;
   margin-left: 93px;

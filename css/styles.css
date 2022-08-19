@@ -82,7 +82,7 @@ ul {
 } */
 
 /* LOGO */
-.logo {
+/* .logo {
   font-family: var(--secondary-font);
   color: var(--acent-cl);
   font-weight: 700;
@@ -103,7 +103,7 @@ ul {
 .footlog {
   display: flex;
   margin-bottom: 20px;
-}
+} */
 
 /* header */
 
@@ -234,7 +234,7 @@ ul {
 
 /* Особенности */
 
-.feature__section {
+/* .feature__section {
   padding-top: 94px;
   padding-bottom: 94px;
 }
@@ -276,10 +276,10 @@ ul {
 }
 .feature__icon:hover {
   stroke: var(--acent-cl);
-}
+} */
 
 /* Чем мы занимаемся */
-
+/* 
 .about__section {
   padding-bottom: 94px;
 }
@@ -325,10 +325,10 @@ ul {
   text-transform: uppercase;
 
   color: var(--white-cl);
-}
+} */
 
 /* Наша команда */
-.team__section {
+/* .team__section {
   background-color: #f5f4fa;
   padding-top: 94px;
   padding-bottom: 94px;
@@ -373,10 +373,10 @@ ul {
   letter-spacing: 0.03em;
 
   color: var(--grey-bg-cl);
-}
+} */
 
 /* Постоянные клиенты */
-.clients__section {
+/* .clients__section {
   padding-top: 94px;
   padding-bottom: 94px;
   background: var(--white-cl);
@@ -412,11 +412,11 @@ ul {
 }
 .clients__icon {
   fill: currentColor;
-}
+} */
 
 /* Портфолио */
 
-.portfolio__sections {
+/* .portfolio__sections {
   padding-top: 94px;
   padding-bottom: 94px;
 }
@@ -486,7 +486,7 @@ ul {
   line-height: calc(30 / 16);
   letter-spacing: 0.03em;
   color: var(--grey-bg-cl);
-}
+} */
 
 /* btn */
 
@@ -543,7 +543,7 @@ ul {
 } */
 
 /* socials icons */
-.socials__list {
+/* .socials__list {
   display: flex;
   align-items: center;
   justify-content: center;
@@ -570,9 +570,9 @@ ul {
 }
 .socials__icon {
   fill: currentColor;
-}
+} */
 /* footer socials icons */
-.footer-socials {
+/* .footer-socials {
   align-items: baseline;
   display: flex;
   justify-content: center;
@@ -618,10 +618,10 @@ ul {
 }
 .footer-socials__icon {
   fill: currentColor;
-}
+} */
 
 /* footer */
-.footer {
+/* .footer {
   background-color: var(--dark-bg-cl);
   padding-top: 60px;
   padding-bottom: 60px;
@@ -718,7 +718,7 @@ ul {
   box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
   border-radius: 4px;
   cursor: pointer;
-}
+} */
 
 /* modal window */
 

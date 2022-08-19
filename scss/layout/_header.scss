@@ -11,12 +11,15 @@
   min-height: 80px;
 
   &__conteiner {
+    @extend %conteiner;
+
     display: flex;
     align-items: center;
   }
 }
 
 .header__contacts {
+  @extend %reset-list;
   display: flex;
   margin-left: auto;
   align-items: center;
@@ -26,6 +29,7 @@
   letter-spacing: 0.02em;
 }
 .header__link {
+  @extend %reset-link;
   align-items: center;
   color: var(--grey-bg-cl);
 
