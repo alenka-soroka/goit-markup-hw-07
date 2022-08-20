@@ -25,21 +25,15 @@
     color: #afb1b8;
   }
 
-  &__link:hover,
-  &__link:focus {
-    color: var(--white-cl);
-  }
-
-  &__link:hover,
-  &__link:focus {
-    --color3: var(--acent-cl);
-    --color2: var(--acent-cl);
-    border: 1px solid var(--acent-cl);
-    transition: border 250ms cubic-bezier(0.4, 0, 0.2, 1);
-  }
-
   &__icon {
     fill: currentColor;
-    transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
+    transition: fill 650ms cubic-bezier(0.4, 0, 0.2, 1);
+  }
+
+  &__link:hover,
+  &__link:focus {
+    color: var(--acent-cl);
+    border: 1px solid var(--acent-cl);
+    transition: border 650ms cubic-bezier(0.4, 0, 0.2, 1), color 650ms cubic-bezier(0.4, 0, 0.2, 1);
   }
 }

@@ -898,20 +898,16 @@ img {
   border: 1px solid #afb1b8;
   color: #afb1b8;
 }
-.clients__link:hover, .clients__link:focus {
-  color: var(--white-cl);
-}
-.clients__link:hover, .clients__link:focus {
-  --color3: var(--acent-cl);
-  --color2: var(--acent-cl);
-  border: 1px solid var(--acent-cl);
-  -webkit-transition: border 250ms cubic-bezier(0.4, 0, 0.2, 1);
-  transition: border 250ms cubic-bezier(0.4, 0, 0.2, 1);
-}
 .clients__icon {
   fill: currentColor;
-  -webkit-transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
-  transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  -webkit-transition: fill 650ms cubic-bezier(0.4, 0, 0.2, 1);
+  transition: fill 650ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+.clients__link:hover, .clients__link:focus {
+  color: var(--acent-cl);
+  border: 1px solid var(--acent-cl);
+  -webkit-transition: border 650ms cubic-bezier(0.4, 0, 0.2, 1), color 650ms cubic-bezier(0.4, 0, 0.2, 1);
+  transition: border 650ms cubic-bezier(0.4, 0, 0.2, 1), color 650ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .portfolio-content {
