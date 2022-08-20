@@ -9,17 +9,6 @@
     align-items: baseline;
   }
 
-  &__list {
-    @extend %reset-list;
-    font-family: 'Roboto';
-    font-style: normal;
-    font-weight: 400;
-    font-size: 14px;
-    line-height: calc(24 / 14);
-    letter-spacing: 0.03em;
-    color: var(--white-cl);
-  }
-
   &__adress {
     @extend %reset-link;
     font-family: 'Roboto';
@@ -28,6 +17,10 @@
     font-size: 14px;
     line-height: calc(24 / 14);
     letter-spacing: 0.03em;
+  }
+
+  &__contacts {
+    gap: 10px;
   }
 
   &__link {
@@ -93,7 +86,7 @@
     font-weight: 700;
     font-size: 16px;
     line-height: 1.8;
-
+    letter-spacing: 0.06em;
     width: 200px;
     height: 50px;
 
@@ -110,4 +103,19 @@
 }
 .footer__list .footer__list + .footer__list {
   margin-top: 9px;
+}
+
+.footer__list {
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: calc(24 / 14);
+  letter-spacing: 0.03em;
+  color: #ffffff;
+}
+
+.footer__item {
+  margin-top: 9px;
+  margin-bottom: 9px;
 }
